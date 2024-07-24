@@ -1,0 +1,586 @@
+body{
+    background-color: rgb(245, 196, 227);
+}
+@media (max-width: 992px) {
+    .navbar-nav {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container2 {
+        flex-direction: column;
+    }
+
+    .foot {
+        flex-direction: column;
+    }
+
+    .foot .content1,
+    .foot .content2,
+    .foot .content3 {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #Title {
+        font-size: 2em;
+    }
+
+    #solution {
+        font-size: 1.2em;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .container2 {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    #Title {
+        font-size: 1.5em;
+    }
+
+    #solution {
+        font-size: 1em;
+    }
+
+    .card1, .card2, .card3,
+    .co1, .co2, .co3 {
+        min-width: 100%;
+    }
+
+    .bottom {
+        font-size: 0.8em;
+    }
+}
+
+
+ 
+    
+
+.container-fluid {
+    margin-top: 0%;
+}
+#image1 {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 2%;
+}
+#Title {
+    color: rgb(244, 32, 32);
+    position: absolute;
+    margin-left: 18%;
+    text-align: center;   
+}
+#solution {   
+    margin-top: 2%;
+    text-align: center;
+}
+
+#sub {
+    text-align: center;
+    border-radius: 50%;
+}
+#service {
+    margin-top: 3%;
+    text-align: center;
+    color: rgb(156, 66, 240);
+    text-decoration:underline ;
+}
+#stitch {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+}
+#stitch:hover {
+    transform: translateY(-20px);
+}
+#list1 {
+    margin-left: 5%;
+}
+#gents {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+}
+#gents:hover {
+    transform: translateY(-20px);
+}
+#ladies {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+}
+#ladies:hover {
+    transform: translateY(-20px);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+#collection {
+    margin-top: 3%;
+    text-align: center;
+    color: rgb(156, 66, 240);
+    text-decoration:underline ;
+    text-align: center;
+}
+#material {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+}
+#material:hover {
+    transform: translateY(-20px);
+}
+#astar {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: -5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: transform 0.6s ease;    
+}
+#astar:hover {
+    transform: translateY(-20px);
+}
+#m1 {
+    margin-left: 5%;
+}
+#piece {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: -5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+}
+#piece:hover {
+    transform: translateY(-20px);
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    gap: 80px; 
+}
+#photo {
+    margin-left: 13%;
+    margin-top: 4%;
+    height: 500px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.section {
+    display: flex; 
+}
+#ex {
+    margin-top: 6%;
+    margin-left: 6%;
+}
+#skills {
+    margin-left: 6%;
+    margin-top: 4%;
+    color: red;
+}
+#ol {
+    margin-left: 6%;  
+}
+#experience {
+    margin-left: 6%;
+    margin-top: 2%;
+    color: red; 
+}
+#ul {
+    margin-left: 6%;
+}
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    object-fit: cover;
+    align-items: center;
+}
+#im {
+    height: 300px;
+    width: 400px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 4%;
+    transition: 400ms;
+}
+#im:hover {
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+.foot {
+    color: white;
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.foot content1 {
+    margin-left: 0%;
+    align-items:start;
+    display: flex;
+    width: 33.3%;
+}
+.foot content2 {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-left: 50px;  
+    width: 33.3%;
+}
+.foot content3 {
+    text-align: center;
+    margin-right: 2%;
+    align-items:center;
+    display: flex;
+    width: 33.3%;
+}
+.link {
+    padding: 0;
+    margin-top: 10%;
+    margin-left: -28%;
+}
+.link li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+.link li::before {
+    content: "";
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background-color: orange;
+    transition-duration: 4s;
+}
+.link li:hover::before {
+    width: 70px;
+}
+footer {
+   background-color: rgb(182, 167, 35);
+   padding-top: 50px;
+   align-items:center;
+}
+#ft {
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.bottom {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+.bottom p{
+    color:brown ;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
+.icon {
+    padding: 0;
+    margin-top: 20%;
+    margin-left: -30%;
+    flex-direction: column;
+    
+}
+#i {
+    flex-direction: column;
+}
+.icon li{
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+.icon i{
+    color: black;
+    font-size: 25px;
+}
+.icon i:hover{
+    color: orange;
+}
+#Title {
+    text-align: center;
+}
+#ul1 {
+    margin-top: 20%;
+    margin-left: -43%;
+}
+#slogan {
+    color: brown;
+    font-style:italic;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+#he{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: red;
+}
+.mb-3{
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 500px;
+}
+#bt {
+    margin-left: 2%;
+}
+#h {
+    color: red;
+}
+#hy {
+    color: red;
+}
+#nb {
+    background-color: rgb(245, 196, 227);
+}
+.nav-item {
+    display: flex;
+}
+#ju {
+    padding: auto;
+}
+#material2 {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+}
+#material2:hover {
+    transform: translateY(-20px);
+}
+#astar2{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: -5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+}
+#astar2:hover{
+    transform: translateY(-20px);
+}
+#piece2 {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: -5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+}
+#piece2:hover {
+    transform: translateY(-20px);
+}
+#lace1 {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: -4%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+}
+#lace1:hover{
+    transform: translateY(-20px);
+}
+.container3 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.container4 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+#lace2 {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: -2%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: transform 0.6s ease; 
+}
+#lace2:hover{
+    transform: translateY(-20px);
+}
+#fall {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: -2%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: transform 0.6s ease; 
+}
+#fall:hover{
+    transform: translateY(-20px);
+}
+#lat {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: -3%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+}
+#lat:hover{
+    transform: translateY(-20px);
+}
+#lat2 {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+}
+#lat2:hover{
+    transform: translateY(-20px);
+}
+.container5 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+#th {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: -2%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+}
+#th:hover{
+    transform: translateY(-20px);
+}
+#th2 {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: -2%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+}
+#th2:hover{
+    transform: translateY(-20px);
+}
+#th3 {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: -3%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+}
+#th3:hover{
+    transform: translateY(-20px);
+}
+#th4 {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+}
+#th4:hover{
+    transform: translateY(-20px);
+}
+#s1{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+}
+#s1:hover{
+    transform: translateY(-20px);
+}
+#i1 {
+    text-align: center;
+    color: red;
+    margin-top: 2%;
+}
+#s5{
+    text-align: center;
+    padding-top: 2%;  
+    color: darkviolet;  
+    text-decoration: none;
+}
+#s6{
+    text-align: center;
+}
+#s0{
+    padding-left: 3%;
+    padding-top: 2%;
+}
+#s4{
+    padding-left: 3%;
+}
